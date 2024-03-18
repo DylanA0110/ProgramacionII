@@ -1,6 +1,5 @@
 ﻿using Repository;
 
-//Empleado
 string ficheroEmpleado = "empleados.txt";
 
 IEmpleadoRepository empRepository = new EmpleadoRepositoryArchivo(ficheroEmpleado);
